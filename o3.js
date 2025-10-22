@@ -63,9 +63,9 @@ var init = function () {
 
     // --- BOYUT BÜYÜTME İÇİN DEĞİŞTİRİLEN KISIM (Örn: 210 -> 300, 13 -> 18) ---
     // YENİ, MAKSİMUMA YAKIN BÜYÜK KALBİN KODU
-for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 800, 55, 0, 0)); 
-for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 580, 40, 0, 0));
-for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 350, 25, 0, 0)); // İÇ KATMAN BÜYÜTÜLDÜ
+for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 500, 35, 0, 0)); 
+for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 380, 25, 0, 0));
+for (i = 0; i < Math.PI * 2; i += dr) pointsOrigin.push(scaleAndTranslate(heartPosition(i), 250, 15, 0, 0)); // İÇ KATMAN BÜYÜTÜLDÜ
     var heartPointsCount = pointsOrigin.length;
     // ----------------------------------------------------------------------
 
